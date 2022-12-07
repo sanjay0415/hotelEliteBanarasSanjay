@@ -1,0 +1,122 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .footer {
+        width: 1168px;
+        height: 1431px;
+    }
+
+    .tieupHeading {
+        margin: 41px 461px;
+        width: 334px;
+    }
+
+    .tieupImgDiv {
+        margin: -43px 382px;
+        width: 580px;
+        /* border: 2px solid red;*/
+    }
+
+    .deliveryHeading {
+        margin: 2px 307px;
+        width: 700px;
+        /* border: 2px solid red;*/
+    }
+
+    .deliveryImgDiv {
+        margin: 47px 281px;
+        /* border: 2px solid red; */
+        width: 768px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+
+.footer {
+    /* border: 2px solid red; */
+    height: 650px;
+    width: 1336px;
+    background-color: black;
+    margin: 91px 0px;
+
+}
+
+/* tieups */
+.tieUps {
+    margin: 40px 2px;
+}
+
+.tieUpsImg {
+    height: 50px;
+    width: 50px;
+}
+
+.tieupHeading {
+    margin: 2px 475px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: beige;
+}
+
+.tieupImgDiv {
+    margin: -26px 402px;
+}
+
+.tieUpsImg {
+    height: 84px;
+    width: 95px;
+    margin: 45px 31px;
+}
+
+
+
+/* delivery */
+.deliveryHeading {
+    margin: -8px 347px;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    color: beige;
+}
+
+.deliveryImgDiv {
+    margin: 27px 325px;
+}
+
+.deliveryImg {
+    margin: 2px 14px;
+    height: 78px;
+    width: 83px;
+    border-radius: 23px;
+}
+
+/* address */
+.address {
+    /* border: 2px solid red; */
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    color: beige;
+    padding: 47px 2px;
+}
+
+
+/* copyright */
+.copyright {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: red;
+    margin: -51px 2px;
+}
+
+.phoneNumber{
+    margin: 11px 2px;
+    font-size: 25px;
+}

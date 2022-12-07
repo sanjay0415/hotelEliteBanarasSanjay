@@ -1,0 +1,46 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .headingTag {
+        margin: 23px 465px;
+        width: 422px;
+    }
+
+    
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+.homeSub1 {
+    /* text-align: center; */
+}
+
+.headingTag {
+    text-align: center;
+    display: flex;
+    margin: 25px 469px;
+}
+
+/* .mapping {
+    display: flex;
+    /* border: 2px solid red; 
+    margin: -48px 25px;
+} */
+
+.grid1 {
+    display: flex;
+    /* border: 2px solid red;  */
+    margin: -48px -10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.unicode {
+    margin: -23px 16px;
+    height: 51px;
+    font-size: 75px;
+}

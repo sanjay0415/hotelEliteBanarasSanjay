@@ -1,0 +1,193 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .time {
+        width: 645px;
+        margin: 88px 200px;
+    }
+
+    .currtimeCss {
+        margin: 11px 117px;
+
+    }
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+/* this is used for div that is used in return */
+.time {
+    border: 7px double #950000;
+    margin: 80px 263px;
+    padding: 49px 73px;
+    animation: changeBack 20s linear infinite;
+    border-radius: 35px;
+    box-shadow: -2px 7px 20px 10px #bce1f3;
+    width: 639px;
+    height: 261px;
+}
+
+/* this is first line of greeting*/
+.greetingCss1 {
+    margin: -33px 58px;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 513px;
+}
+
+/* this is third line of greeting*/
+.greetingCss2 {
+    margin: -31px -46px;
+    font-size: 45px;
+    font-weight: bolder;
+    width: 772px;
+}
+
+/* this is second line of greeting*/
+.currtimeCss {
+    border: 9px dotted red;
+    margin: 55px -28px;
+    padding: 15px 19px;
+    width: 641px;
+    font-size: 90px;
+    font-weight: bolder;
+    color: red;
+    text-shadow: 3px 3px 6px red;
+    box-shadow: 1px 3px 17px 12px;
+
+    animation: changeBack2 20s linear infinite;
+}
+
+@keyframes changeBack {
+    0% {
+        /* background-image: url("/public/images/foodBackground/back1.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(239 249 232);
+        box-shadow: -1px 6px 20px 20px rgb(30 125 29);
+    }
+
+    20% {
+        /* background-image: url("/public/images/foodBackground/back2.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(233 233 243);
+        box-shadow: -1px 6px 20px 12px rgb(21 125 119);
+
+    }
+
+    40% {
+        /* background-image: url("/public/images/foodBackground/back3.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(245 231 244);
+        box-shadow: -1px 6px 20px 12px rgb(128 11 132);
+
+    }
+
+    60% {
+        /* background-image: url("/public/images/foodBackground/back4.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(232 231 245);
+        box-shadow: -1px 6px 20px 12px rgb(8 23 130);
+
+    }
+
+    80% {
+        /* background-image: url("/public/images/foodBackground/back1.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(245 231 232);
+        box-shadow: -1px 6px 20px 12px rgb(143 6 6);
+    }
+
+    100% {
+        /* background-image: url("/public/images/foodBackground/back1.jpg"); */
+        background-color: rgb(247 245 232);
+        box-shadow: -1px 6px 20px 12px rgb(158 147 2);
+    }
+}
+
+@keyframes changeBack2 {
+    0% {
+        /* background-image: url("/public/images/foodBackground/back1.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(239 249 232);
+        box-shadow: -1px 6px 20px 20px rgb(30 125 29);
+    }
+
+    20% {
+        /* background-image: url("/public/images/foodBackground/back2.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(233 233 243);
+        box-shadow: -1px 6px 20px 12px rgb(21 125 119);
+
+    }
+
+    40% {
+        /* background-image: url("/public/images/foodBackground/back3.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(245 231 244);
+        box-shadow: -1px 6px 20px 12px rgb(128 11 132);
+
+    }
+
+    60% {
+        /* background-image: url("/public/images/foodBackground/back4.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(232 231 245);
+        box-shadow: -1px 6px 20px 12px rgb(8 23 130);
+
+    }
+
+    80% {
+        /* background-image: url("/public/images/foodBackground/back1.jpg"); */
+        background-size: 100% 100%;
+        background-color: rgb(245 231 232);
+        box-shadow: -1px 6px 20px 12px rgb(143 6 6);
+    }
+
+    100% {
+        /* background-image: url("/public/images/foodBackground/back1.jpg"); */
+        background-color: rgb(247 245 232);
+        box-shadow: -1px 6px 20px 12px rgb(158 147 2);
+    }
+}
+
+/* 
+@keyframes changeBack {
+    0% {
+        background-image: url("../public/foodBackground/back1.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; 
+    }
+
+    20% {
+        background-image: url("../public/foodBackground/back2.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; 
+    }
+
+    40% {
+        background-image: url("../public/foodBackground/back3.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; 
+    }
+
+    60% {
+        background-image: url("../public/foodBackground/back4.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; 
+    }
+
+    80% {
+        background-image: url("../public/foodBackground/back5.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; 
+    }
+
+    100% {
+        background-image: url("../public/foodBackground/back1.jpg");
+        background-size: 100% 100%;
+        /* opacity: 0.7; 
+    }
+} */

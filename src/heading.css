@@ -1,0 +1,61 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px){
+    #span2 {
+        margin: 13px 154px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+
+/* [#heading] => this is used for bringing span 1 and span2 to center of div */
+#heading{
+    /* border: 2px solid red; */
+    margin: 25px 6px;
+    display: flex;
+}
+
+/* this is for logo EB */
+#span1{
+    /* border: 2px solid red; */
+    padding: -3px 40px;
+    margin: 58px 30px;
+    font-size: 50px;
+    border-bottom: 11px solid black;
+    border-radius: 31px;
+}
+
+/* this is for word ELITE BANARAS */
+#span2{
+    /* border: 2px solid red; */
+    font-size: 50px;
+    margin: 11px 203px;
+}
+
+/* this is for first letter of EB */
+/* for this refer video-17 of CSS */
+p.firstletter::first-letter{
+    color: red;
+    font-size: 85px;
+}
+
+/* this is for 2nd word of ELITE BANARAS */
+#span2Height{
+    font-size: 120px;
+    margin: 0px 60px;
+    letter-spacing: 5px;
+}
+
+h2{
+    color: green;
+    margin: -26px 221px;
+    border-bottom: 4px solid;
+    height: 47px;
+    width: 56px;
+    
+}

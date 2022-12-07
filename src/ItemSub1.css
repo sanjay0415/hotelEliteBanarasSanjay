@@ -1,0 +1,40 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .grid1 {
+        /* border: 2px solid red; */
+        width: 1148px;
+        margin: 2px -14px;
+    }
+
+
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+.homeSub1 {
+    /* text-align: center; */
+}
+
+.headingTag {
+    text-align: center;
+    display: flex;
+    margin: 25px 573px;
+}
+
+.grid1 {
+    display: flex;
+    /* border: 2px solid red;  */
+    margin: -48px 27px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.unicode {
+    margin: -23px 16px;
+    height: 51px;
+    font-size: 75px;
+}

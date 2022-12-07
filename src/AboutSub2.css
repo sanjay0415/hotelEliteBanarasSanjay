@@ -1,0 +1,101 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .achievementHeading {
+        margin: 94px 281px;
+        width: 571px;
+        /* border: 2px solid red;*/
+    }
+
+    .cardBoxes {
+        /* border: 2px solid red; */
+        width: 1051px;
+        margin: -61px 106px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+.achievementHeading {
+    font-weight: bolder;
+    margin: 95px 373px;
+    font-size: 35px;
+    width: 900px;
+    /* border: 2px solid; */
+}
+
+.cardBoxes {
+    /* border: 2px solid red; */
+    display: flex;
+    margin: -77px 50px;
+    width: 1175px;
+}
+
+.cardAbout {
+    height: 280px;
+    width: 211px;
+    /* border: 2px solid red; */
+    text-align: center;
+    position: relative;
+    margin: 8px 13px;
+}
+
+.face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.face1 p {
+    text-align: center;
+    /* margin-top: 20px; */
+    padding: 0px 2px;
+}
+
+.face2 {
+    background-color: white;
+}
+
+.face2 img {
+    height: 100%;
+    width: 100%;
+}
+
+.cardAbout:hover .face2 {
+    height: 50px;
+    width: 50px;
+    margin: 2px 80px;
+    border-radius: 45px;
+    transition: 0.5s;
+}
+
+/* -------------------------------------------------------- */
+
+.awardHeading {
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+.awardImg {
+    height: 50px;
+    width: 50px;
+    border-radius: 45px;
+}
+
+
+/* hovering part  */
+.mainAboutSub2:hover > .achievementHeading{
+    color: blue;
+    /* text-transform: uppercase; */
+}

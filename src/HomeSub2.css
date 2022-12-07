@@ -1,0 +1,21 @@
+.homeSub2{
+    /* text-align: center; */
+}
+
+.headingTag1{
+    text-align: center;
+    display: flex;
+    margin: 2px 380px;
+}
+
+.mapping1{
+    display: flex;
+    /* border: 2px solid red; */
+    margin: -48px 202px;
+}
+
+.unicode{
+    margin: -23px 16px;
+    height: 51px;
+    font-size: 75px;
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/hotelEliteBanarasSanjay/static/css/main.45eba2a4.css",
+    "main.js": "/hotelEliteBanarasSanjay/static/js/main.7887d70a.js",
+    "static/media/img4.jpg": "/hotelEliteBanarasSanjay/static/media/img4.cfe6fd237f9e1067a998.jpg",
+    "static/media/feedback3.jpg": "/hotelEliteBanarasSanjay/static/media/feedback3.1b0f85f5c0f5cf8b10e4.jpg",
+    "static/media/img1.jpg": "/hotelEliteBanarasSanjay/static/media/img1.879050d8bee6b80a46ee.jpg",
+    "static/media/img2.jpg": "/hotelEliteBanarasSanjay/static/media/img2.8a5ee896927edeb500cc.jpg",
+    "static/media/img3.jpg": "/hotelEliteBanarasSanjay/static/media/img3.bf143809bf71833e0f8e.jpg",
+    "index.html": "/hotelEliteBanarasSanjay/index.html",
+    "main.45eba2a4.css.map": "/hotelEliteBanarasSanjay/static/css/main.45eba2a4.css.map",
+    "main.7887d70a.js.map": "/hotelEliteBanarasSanjay/static/js/main.7887d70a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45eba2a4.css",
+    "static/js/main.7887d70a.js"
+  ]
+}

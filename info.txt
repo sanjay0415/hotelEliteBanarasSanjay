@@ -1,0 +1,76 @@
+step 1 => index.js - this is main file where we run our server. This contains only 'App.jsx'
+step 2 => App.jsx - this sub main file where we run all the routing files here. This is placed in 'index.js'
+step 3 => Home.jsx - this Home page under 'App.jsx
+step 4 => About.jsx - this About page under 'App.jsx
+step 5 => Items.jsx - this Items page under 'App.jsx
+step 6 => Booking.jsx - this Booking page under 'App.jsx
+step 7 => Menu.jsx - this is actually used for 'routing'. This is placed under 'App.jsx'
+step 8 => Menu.css - this is css page of 'Menu.jsx' and this is placed in 'Menu.jsx'
+step 9 => Heading.jsx - this is page which appears on every routing page [EB ELITE BANARAS]. This is splaced under "App.jsx" on top
+step 10 => Heading.css - this is css page of 'Heading.jsx'
+
+------------------------------------------------------------------------------------
+HOME PAGE PART
+
+
+step 11 => Home.jsx - this contains main part of home Items
+step 12 => homeSub1.jsx - here mapping is done for'BREAKFAST'
+step 13 => homeSub1.css - this is used for styling 'homeSub1.jsx' file , like all 3 photos coming in same row
+step 14 => homeSub1Card.css - this contains 'card-effect' css part
+step 15 => homeSub1Card.jsx - this contains card, image and content
+step 16 => homeSub1Data.jsx - this contains 'this week special breakfast' part
+step 17 => homeSub1Map.jsx - this is used for mapping process pre work
+step 19 => homeSub2.jsx - here mapping is done for'LUNCH'
+step 20 => homeSub2.css - this is used for styling 'homeSub2.jsx' file , like all 3 photos coming in same row
+step 14 => homeSub2Card.css - this contains 'card-effect' css part
+step 15 => homeSub2Card.jsx - this contains card, image and content
+step 16 => homeSub2Data.jsx - this contains 'this week special breakfast' part
+step 17 => homeSub2Map.jsx - this is used for mapping process pre work
+step 18 => homeSub3.jsx - here mapping is done for'DINNER'
+step 19 => homeSub3.css - this is used for styling 'homeSub3.jsx' file , like all 3 photos coming in same row
+step 20 => homeSub3Card.css - this contains 'card-effect' css part
+step 21 => homeSub3Card.jsx - this contains card, image and content
+step 22 => homeSub3Data.jsx - this contains 'this week special breakfast' part
+step 23 => homeSub3Map.jsx - this is used for mapping process pre work
+step 24 => homeSub4.jsx - this is used for food quote part
+step 25 => homeSub4.css - this is used for styling 'homeSub4.jsx'
+step 26 => homeSub5.jsx - this is used for footer part like sponsor, partner, address etc
+step 27 => homeSub5.css - this is used for styling of footer part of 'homeSub5.jsx' 
+
+
+----------------------------------------------------------------------------------
+About page part
+
+
+step 28 => AboutSub1.jsx - this part contains owner photo and education part
+step 29 => ABoutSub1.css - this part contains css part of file 'ABoutSub1.jsx'
+step 30 => AboutSub2.jsx - this part contains Achievement part
+step 31 => AboutSub2.css - this part contains the css part pf 'AboutSub2.jsx'
+step 32 => AboutSub3.jsx - this part contains the branch address's
+step 33 => AboutSub3.css - this part contains the css part of 'AboutSub3.jsx'
+step 34 => AboutSub4.jsx - this part contains the youtube links part
+step 35 => AboutSub4.css - this part contains the css part of 'AboutSub4.jsx'
+
+
+----------------------------------------------------------------------------------
+Items page part
+
+step 45 => ItemSub1.jsx - this part contains BREAKFAST info where mapping is done
+step 46 => ItemSub1.css - this part contains css part of 'ItemSub1.jsx'
+step 47 => ItemSub1Card.jsx - this contains card, image and content
+step 48 => ItemSub1Card.css - this contains 'card-effect' css part
+step 49 => ItemSub1Map.jsx - this is used for mapping process pre work
+step 50 => ItemSub1aData - this contains 1st row image and content
+step 52 => ItemSub1bData - this contains 2nd row image and content
+step 53 => ItemSub1cData - this contains 3rd row image and content
+step 54 => ItemSub1dData - this contains 4th row image and content
+
+step 55 => ItemSub2.jsx - this part contains LUNCH info where mapping is done
+step 56 => ItemSub2.css - this part contains css part of 'ItemSub1.jsx'
+step 57 => ItemSub2Card.jsx - this contains card, image and content
+step 58 => ItemSub2Card.css - this contains 'card-effect' css part
+step 59 => ItemSub2Map.jsx - this is used for mapping process pre work
+step 60 => ItemSub2aData - this contains 1st row image and content
+step 61 => ItemSub2bData - this contains 2nd row image and content
+step 62 => ItemSub2cData - this contains 3rd row image and content
+step 63 => ItemSub2dData - this contains 4th row image and content

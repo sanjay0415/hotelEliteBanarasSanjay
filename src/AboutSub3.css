@@ -1,0 +1,75 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .branchAddress {
+        margin: 203px 487px;
+        /* border: 2px solid red; */
+        width: 315px;
+    }
+
+  
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+
+
+.branchAddress {
+    margin: 186px 540px;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 500px;
+}
+
+.branches1 {
+    /* border: 2px solid red; */
+    margin: -172px 57px;
+    height: 321px;
+    display: flex;
+    width: 1138px;
+}
+
+.branch1 {
+    /* border: 2px solid red; */
+    height: 295px;
+    width: 284px;
+    margin: 2px 6px;
+}
+
+.branchImg {
+    height: 190px;
+    width: 249px;
+    margin: 2px 13px;
+    border-radius: 10px;
+}
+
+.branchP1 {
+    margin: -46px 70px;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #f9f4f3;
+    /* background: transparent; */
+}
+
+.branchP2 {
+    width: 219px;
+    margin: 40px 14px;
+    border: 3px double;
+    padding: 13px 10px;
+    border-top-color: white;
+    /* text-decoration: none; */
+    border-radius: 18px;
+}
+
+.branches1 a{
+    text-decoration: none;
+}
+
+/* hovering part  */
+.mainAboutSub3:hover > .branchAddress{
+    color: blue;
+    /* text-transform: uppercase; */
+}

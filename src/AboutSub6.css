@@ -1,0 +1,134 @@
+.controlClassFeedback {
+    /* border: 2px solid red; */
+    margin: 188px 215px;
+    height: 520px;
+    width: 819px;
+    background-image: url("/public/aboutFiles/feedback3.jpg");
+    background-size: 100% 100%;
+    padding: 2px 0px;
+    border: 8px dotted #34c754;
+    border-radius: 55px;
+}
+
+#feedbackForm {
+    margin: 48px 174px;
+    /* border: 2px solid red; */
+    height: 377px;
+    gap: 2px;
+}
+
+.inputBox {
+    /* border: 2px solid red; */
+    /* position: relative; */
+    width: 426px;
+}
+
+.inputBox span {
+    position: absolute; /*this is very imp point*/
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: -38px 187px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+/* this is for input ------------------------------------------------- */
+.inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 7px solid rgb(16 233 93);
+    /* background-color: antiquewhite; */
+    border-radius: 15px;
+    outline: none;
+    /* when we switch from one input box to other input box we can see, switched box border turn to black*/
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+/* valid~span => makes to keep span at particular place when we go for next input
+focus~span => makes span to move upward left */
+
+.inputBox input:valid~span,
+.inputBox input:focus~span {
+    color: yellow;
+    transform: translateX(10px) translateY(-18px);
+    font-size: 15px;
+    background-color: white;
+    margin: -45px 15px;
+    padding: 0px 5px;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    letter-spacing: 3px;
+    background-color: black;
+    font-weight: bold;
+}
+
+.inputBox input:valid,
+.inputBox input:focus{
+    border: 7px solid yellow;
+}
+
+
+/*------------------------------------------------------------------------ */
+
+
+
+/* this is for textarea ------------------------------------------------- */
+.inputBox textarea {
+    width: 100%;
+    padding: 10px;
+    border: 7px solid rgb(16 233 93);
+    /* background-color: antiquewhite; */
+    border-radius: 10px;
+    outline: none;
+    /* when we switch from one input box to other input box we can see, switched box border turn to black*/
+    font-size: 20px;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+.inputBox textarea:valid~span,
+.inputBox textarea:focus~span {
+    color: yellow;
+    transform: translateX(10px) translateY(-185px);
+    font-size: 15px;
+    background-color: white;
+    margin: -90px 15px;
+    padding: 0px 5px;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    letter-spacing: 3px;
+    background-color: black;
+    font-weight: bold;
+}
+
+.inputBox textarea:valid,
+.inputBox textarea:focus{
+    border: 7px solid yellow;
+}
+
+
+
+/*------------------------------------------------------------------------ */
+
+#inp1Feed{
+    margin: -21px 2px;
+}
+#inp2Feed{
+    margin: 49px 2px;
+}
+#inp3Feed{
+    margin: -20px 2px;
+}
+
+.submitFeed{
+    margin: 33px 169px;
+    border: 2px solid;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 3px 12px;
+    border-radius: 47px;
+    box-shadow: 1px 2px 12px 9px red;
+    cursor: pointer;
+}

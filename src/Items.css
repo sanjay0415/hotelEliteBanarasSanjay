@@ -1,0 +1,22 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px){
+    .menuHeading{
+        /* margin: 2px 510px; */
+        margin: 56px 466px;
+        border: 2px solid;
+        width: 289px;
+    }
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+.menuHeading{
+    margin: 58px 488px;
+    font-size: 40px;
+    font-weight: bolder;
+    border-bottom: 9px double red;
+}

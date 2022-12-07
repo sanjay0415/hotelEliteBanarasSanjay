@@ -1,0 +1,29 @@
+.mainBox{
+    /* border: 2px solid red; */
+    height: 319px;
+    width: 1036px;
+    display: flex;
+    margin: 20px 142px;
+}
+
+.imageSub4{
+    /* border: 2px solid red; */
+    height: 317px;
+    width: 295px;
+    box-shadow: 4px 8px 13px 9px #c6ff3c;
+    border: 7px dotted green;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.quoteSub4{
+    /* border: 2px solid red; */
+    height: 192px;
+    width: 693px;
+    margin: 123px 16px;
+    box-shadow: 8px 7px 19px 16px #d9b575;
+    opacity: 0.9;
+    border: 7px double red;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}

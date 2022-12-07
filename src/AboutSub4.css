@@ -1,0 +1,83 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .vloggersHeading{
+        margin: 2px 355px;
+        /* border: 2px solid red; */
+        width: 583px;
+    }
+
+    
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+.vloggers {
+    /* border: 2px solid red; */
+    height: 350px;
+    margin: 240px 0px;
+}
+
+.vloggersHeading {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 2px 387px;
+}
+
+.vloggersPhoto {
+    border: 9px double red;
+    height: 292px;
+    width: 626px;
+    margin: 23px 317px;
+    border-top-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+    animation: slides 36s linear infinite;
+}
+
+@keyframes slides {
+    0%{
+        background-image: url("/public/bloggers/img1.jpg");
+        background-size: 100% 100%;
+        transition-delay: 2s;
+        transition: 0.3s;
+    }
+    20%{
+        background-image: url("/public/bloggers/img2.jpg");
+        background-size: 100% 100%;
+        transition-delay: 2s;
+        transition: 0.3s;
+    }
+    40%{
+        background-image: url("/public/bloggers/img3.jpg");
+        background-size: 100% 100%;
+        transition-delay: 2s;
+        transition: 0.3s;
+    }
+    60%{
+        background-image: url("/public/bloggers/img4.jpg");
+        background-size: 100% 100%;
+        transition-delay: 2s;
+        transition: 0.3s;
+    }
+    80%{
+        background-image: url("/public/bloggers/img1.jpg");
+        background-size: 100% 100%;
+        transition-delay: 2s;
+        transition: 0.3s;
+    }
+    100%{
+        background-image: url("/public/bloggers/img2.jpg");
+        background-size: 100% 100%;
+        transition-delay: 2s;
+        transition: 0.3s;
+    }
+}
+
+/* hovering part  */
+.vloggers:hover > .vloggersHeading{
+    color: blue;
+    /* text-transform: uppercase; */
+}

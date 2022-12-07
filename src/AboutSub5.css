@@ -1,0 +1,22 @@
+/* -------this is part is about responsive work------------------------------ */
+
+
+@media (max-width : 1024px) {
+    .feedbackHeading {
+        margin: -122px 331px;
+        width: 592px;
+        /* border: 2px solid red; */
+    }
+
+
+}
+
+
+/* ------------------------------------------------------------------------------- */
+
+
+.feedbackHeading {
+    font-size: 40px;
+    font-weight: bolder;
+    margin: -161px 389px;
+}

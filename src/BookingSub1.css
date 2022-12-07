@@ -1,0 +1,29 @@
+
+
+.timeBooking{
+    /* border: 2px solid red; */
+    height: 187px;
+}
+
+.currtimeCss1 {
+    border: 5px dotted #a7d33c;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    margin: 2px 416px;
+    padding: 13px 35px;
+    width: 361px;
+    border-radius: 28px;
+    color: white;
+    background-color: black;
+}
+
+.greeting1Css2{
+    /* border: 2px solid red; */
+    font-size: 40px;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    width: 1120px;
+    margin: 54px 131px;
+}
